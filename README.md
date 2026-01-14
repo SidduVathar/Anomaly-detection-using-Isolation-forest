@@ -20,7 +20,10 @@ Anomalies are typically isolated with fewer splits, because they are distinct an
 ---
 
 ## 📁 Repository Structure
-
+Anomaly-detection-using-Isolation-forest/
+│
+├── Anomaly Detection.ipynb ← Main notebook with code & explanations
+└── README.md ← This file
 
 ---
 
@@ -42,5 +45,4 @@ The notebook walks you through the end-to-end process interactively.
 
 To run this project, install the following Python packages:
 
-```bash
-pip install numpy pandas matplotlib scikit-learn jupyter
+
