@@ -1,8 +1,46 @@
-# Anomaly-detection-using-Isolation-forest
-This project helps to understand and build a simple Anomaly detection model using the Isolation forest from scikit-learn. All the further required details mentioned in the code page.
-1. Download all the required Libraries (Pandas, numpy, Scikit-Learn)
-2. I used the numpy random number generator to Generate normal data points around two cluster centers
-3. Generate anomalous data points far from the normal clusters and merge with normal datapoints
-4. Created a cluster(scatter) map based on the dataset
-5. Configure and train the Isolation Forest Model
-6. Calculate performance metrics
+# 🧠 Anomaly Detection using Isolation Forest
+
+This repository demonstrates how to build a simple **Anomaly Detection model** using the **Isolation Forest** algorithm from **scikit-learn**.
+
+Anomaly detection is the process of identifying unusual points in data that deviate significantly from the majority of observations. This project shows how the Isolation Forest algorithm works in practice, with example code in a Jupyter Notebook.
+
+---
+
+## 📌 What Is Isolation Forest?
+
+Isolation Forest is a machine learning algorithm designed for **unsupervised anomaly detection**.  
+Unlike many methods that try to model normal data distribution first, Isolation Forest explicitly isolates anomalies by:
+
+- Randomly selecting features and splitting values  
+- Building many random trees (forest)  
+- Using how quickly a sample gets isolated as its anomaly score  
+
+Anomalies are typically isolated with fewer splits, because they are distinct and rare compared to normal data points. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 📁 Repository Structure
+
+
+---
+
+## 🧪 What You Will Learn
+
+This project covers:
+
+✔ How to generate or load a dataset for anomaly detection  
+✔ How to use `IsolationForest` from scikit-learn  
+✔ How to fit a model and evaluate anomaly predictions  
+✔ How to visualize results (e.g., scatter plots showing anomalies)  
+✔ How anomaly labels (`-1` for anomalies, `1` for normal) are determined  
+
+The notebook walks you through the end-to-end process interactively.
+
+---
+
+## 🛠️ Requirements
+
+To run this project, install the following Python packages:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn jupyter
