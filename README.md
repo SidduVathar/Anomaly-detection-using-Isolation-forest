@@ -1,4 +1,4 @@
-# 🧠 Anomaly Detection using Isolation Forest
+# 🧠 Anomaly Detection using Isolation Forest.
 
 This repository demonstrates how to build a simple **Anomaly Detection model** using the **Isolation Forest** algorithm from **scikit-learn**.
 
